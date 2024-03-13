@@ -50,7 +50,7 @@ const Footer: FunctionComponent = () => {
                     <img
                       className={styles.iconleft}
                       alt=""
-                      src="/iconleft.svg"
+                      src="/iconleft2.svg"
                     />
                     <div className={styles.content}>
                       <div className={styles.label}>Label</div>
@@ -120,7 +120,7 @@ const Footer: FunctionComponent = () => {
                           <img
                             className={styles.iconleft1}
                             alt=""
-                            src="/iconleft.svg"
+                            src="/iconleft3.svg"
                           />
                           <div className={styles.buttonLabel}>
                             <b className={styles.label1}>Button label</b>
@@ -148,7 +148,7 @@ const Footer: FunctionComponent = () => {
                   </div>
                   <div className={styles.extraInfo}>
                     <div className={styles.helper}>
-                      <img className={styles.icon2} alt="" src="/icon.svg" />
+                      <img className={styles.icon2} alt="" src="/icon1.svg" />
                       <div className={styles.label2}>Helper text</div>
                     </div>
                     <div className={styles.counter}>

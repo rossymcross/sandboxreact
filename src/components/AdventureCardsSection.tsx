@@ -26,11 +26,15 @@ const AdventureCardsSection: FunctionComponent = () => {
           <div className={styles.button}>
             <div className={styles.button1}>
               <div className={styles.labelButtons}>
-                <img className={styles.iconleft} alt="" src="/iconleft.svg" />
+                <img className={styles.iconleft} alt="" src="/iconleft1.svg" />
                 <div className={styles.buttonLabel}>
                   <b className={styles.label}>Explore Bank of Pinball</b>
                 </div>
-                <img className={styles.iconright} alt="" src="/iconright.svg" />
+                <img
+                  className={styles.iconright}
+                  alt=""
+                  src="/iconright2.svg"
+                />
               </div>
             </div>
           </div>
@@ -53,14 +57,14 @@ const AdventureCardsSection: FunctionComponent = () => {
           <div className={styles.button2}>
             <div className={styles.button3}>
               <div className={styles.labelButtons1}>
-                <img className={styles.iconleft1} alt="" src="/iconleft.svg" />
+                <img className={styles.iconleft1} alt="" src="/iconleft1.svg" />
                 <div className={styles.buttonLabel1}>
                   <b className={styles.label1}>Explore Highlanders</b>
                 </div>
                 <img
                   className={styles.iconright1}
                   alt=""
-                  src="/iconright.svg"
+                  src="/iconright2.svg"
                 />
               </div>
             </div>
@@ -96,14 +100,14 @@ const AdventureCardsSection: FunctionComponent = () => {
           <div className={styles.button4}>
             <div className={styles.button5}>
               <div className={styles.labelButtons2}>
-                <img className={styles.iconleft2} alt="" src="/iconleft.svg" />
+                <img className={styles.iconleft2} alt="" src="/iconleft1.svg" />
                 <div className={styles.buttonLabel2}>
                   <b className={styles.label2}>Explore Lucky Putt</b>
                 </div>
                 <img
                   className={styles.iconright2}
                   alt=""
-                  src="/iconright.svg"
+                  src="/iconright2.svg"
                 />
               </div>
             </div>
@@ -129,14 +133,14 @@ const AdventureCardsSection: FunctionComponent = () => {
           <div className={styles.button6}>
             <div className={styles.button7}>
               <div className={styles.labelButtons3}>
-                <img className={styles.iconleft3} alt="" src="/iconleft.svg" />
+                <img className={styles.iconleft3} alt="" src="/iconleft1.svg" />
                 <div className={styles.buttonLabel3}>
                   <b className={styles.label3}>Explore Lucky Putt</b>
                 </div>
                 <img
                   className={styles.iconright3}
                   alt=""
-                  src="/iconright.svg"
+                  src="/iconright2.svg"
                 />
               </div>
             </div>

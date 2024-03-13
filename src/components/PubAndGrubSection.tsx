@@ -39,7 +39,7 @@ const PubAndGrubSection: FunctionComponent = () => {
             <div className={styles.buttonLabel}>
               <b className={styles.label}>View Food and Drinks Menu</b>
             </div>
-            <img className={styles.iconright} alt="" src="/iconright.svg" />
+            <img className={styles.iconright} alt="" src="/iconright1.svg" />
           </div>
         </div>
       </div>

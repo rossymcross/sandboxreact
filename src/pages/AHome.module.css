@@ -1,0 +1,165 @@
+.decorativeHero1Icon {
+  width: 227px;
+  height: 112px;
+  position: absolute;
+  margin: 0 !important;
+  top: 163px;
+  left: -47px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heroSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-77xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: 268px 0;
+  background-image: url(/public/hero-section@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+}
+.chooseYourOwn {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 60px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+}
+.leafNode {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 59px 0 59.5px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cuttingEdgeGaming40 {
+  width: 860px;
+  position: relative;
+  font-size: var(--title-large-size);
+  letter-spacing: 0.01em;
+  line-height: 28px;
+  font-family: var(--label-small);
+  color: var(--ui-text-medium-emphasis);
+  display: inline-block;
+  max-width: 100%;
+}
+.adventureSectionBackgroundimIcon {
+  height: 560px;
+  width: 1275.5px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.arrowDownwardIcon {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.dataAggregator {
+  width: 1276px;
+  height: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 322px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 150px var(--padding-xl);
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  z-index: 1;
+}
+.aHome1920,
+.adventureSection {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.adventureSection {
+  align-items: center;
+  padding: 218px var(--padding-xl);
+  box-sizing: border-box;
+  gap: 8px 0;
+  max-width: 1920px;
+  text-align: center;
+  font-size: var(--headline-large-size);
+  color: var(--ui-interactive-enabled);
+  font-family: var(--title-large);
+}
+.aHome1920 {
+  background: radial-gradient(50% 50%at 50% 50%, #454, rgba(23, 23, 28, 0)),
+    #17171c;
+  align-items: flex-start;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1900px) {
+  .adventureSection {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1425px) {
+  .heroSection {
+    gap: 134px 0;
+  }
+  .adventureSection {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .heroSection {
+    gap: 67px 0;
+    padding-bottom: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+  .chooseYourOwn {
+    font-size: var(--font-size-21xl);
+    line-height: 48px;
+  }
+  .leafNode {
+    padding-left: var(--padding-10xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+  .adventureSection {
+    padding-top: var(--padding-123xl);
+    padding-bottom: var(--padding-123xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .chooseYourOwn {
+    font-size: var(--font-size-11xl);
+    line-height: 36px;
+  }
+  .cuttingEdgeGaming40 {
+    font-size: var(--body-medium-size);
+    line-height: 22px;
+  }
+  .adventureSection {
+    max-width: 100%;
+  }
+}

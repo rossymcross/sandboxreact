@@ -56,11 +56,11 @@ const AdventureCard: FunctionComponent<AdventureCardType> = ({
         <div className={styles.button}>
           <div className={styles.button1}>
             <div className={styles.labelButtons}>
-              <img className={styles.iconleft} alt="" src="/iconleft.svg" />
+              <img className={styles.iconleft} alt="" src="/iconleft1.svg" />
               <div className={styles.buttonLabel}>
                 <b className={styles.label}>{label}</b>
               </div>
-              <img className={styles.iconright} alt="" src="/iconright.svg" />
+              <img className={styles.iconright} alt="" src="/iconright2.svg" />
             </div>
           </div>
         </div>

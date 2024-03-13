@@ -138,7 +138,7 @@ const Review: FunctionComponent<ReviewType> = ({
         <b className={styles.lindaM}>{lindaM}</b>
       </div>
       <img className={styles.icon} loading="lazy" alt="" src="/.svg" />
-      {showIcon && <img className={styles.icon1} alt="" src="/.svg" />}
+      {showIcon && <img className={styles.icon1} alt="" src="/1.svg" />}
     </div>
   );
 };
