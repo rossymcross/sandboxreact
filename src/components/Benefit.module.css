@@ -1,0 +1,42 @@
+.localActivityIcon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.freeVenueFee {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+}
+.localActivityParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 10px;
+}
+.vipMembersDo {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--subtitle-2-size);
+  line-height: 20px;
+  font-family: var(--label-small);
+}
+.benefit2 {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--ui-surface-enabled);
+  border: 1px solid var(--ui-metallic-gold);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-4xl) var(--padding-5xl);
+  gap: 12px 0;
+  text-align: left;
+  font-size: var(--body-medium-size);
+  color: var(--ui-text-high-emphasis);
+  font-family: var(--title-large);
+}

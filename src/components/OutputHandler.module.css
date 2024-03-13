@@ -1,0 +1,511 @@
+.locationIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.visitUsIn {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 16px;
+  white-space: nowrap;
+}
+.address {
+  align-self: stretch;
+  background-color: var(--ui-surface-enabled);
+  backdrop-filter: blur(48px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-xl);
+  gap: 0 8px;
+  text-align: left;
+  font-size: var(--label-small-size);
+  color: var(--color-white);
+  font-family: var(--label-small);
+}
+.sandboxIcon {
+  align-self: stretch;
+  height: 23.2px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dataFilterIcon {
+  position: absolute;
+  top: 0;
+  left: 22.9px;
+  width: 20.1px;
+  height: 13.5px;
+}
+.dataTransformerIcon {
+  position: absolute;
+  top: 0.7px;
+  left: 0;
+  width: 16.8px;
+  height: 12.2px;
+}
+.groupIcon,
+.sizeScaler {
+  height: 13.5px;
+  width: 43px;
+  position: relative;
+}
+.groupIcon {
+  height: 12.7px;
+  width: 24.7px;
+}
+.dataSplitterIcon {
+  height: 13.1px;
+  width: 59.3px;
+  position: relative;
+}
+.arrowArranger,
+.colorChooser {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 7.5px;
+}
+.arrowArranger {
+  width: 142px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.9px 0;
+}
+.iconleft {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 20px;
+}
+.label {
+  text-decoration: none;
+  position: relative;
+  line-height: 20px;
+  font-weight: 700;
+  color: inherit;
+  white-space: nowrap;
+}
+.buttonLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-5xs);
+}
+.iconright {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 20px;
+}
+.labelButtons {
+  align-items: center;
+  justify-content: center;
+}
+.button,
+.labelButtons,
+.navigationMenuItem {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  height: 40px;
+  border-radius: var(--br-base);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-11xs);
+  box-sizing: border-box;
+}
+.navigationMenuItem {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconleft1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 20px;
+}
+.label1 {
+  position: relative;
+  line-height: 20px;
+  white-space: nowrap;
+}
+.buttonLabel1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-5xs);
+}
+.iconright1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 20px;
+}
+.labelButtons1 {
+  align-items: center;
+  justify-content: center;
+}
+.button1,
+.labelButtons1,
+.navigationMenuItem1 {
+  display: flex;
+  flex-direction: row;
+}
+.button1 {
+  height: 40px;
+  border-radius: var(--br-base);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-11xs);
+  box-sizing: border-box;
+}
+.navigationMenuItem1 {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconleft2 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 20px;
+}
+.label2 {
+  position: relative;
+  line-height: 20px;
+  white-space: nowrap;
+}
+.buttonLabel2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-5xs);
+}
+.iconright2 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 20px;
+}
+.labelButtons2 {
+  align-items: center;
+  justify-content: center;
+}
+.button2,
+.labelButtons2,
+.navigationMenuItem2 {
+  display: flex;
+  flex-direction: row;
+}
+.button2 {
+  height: 40px;
+  border-radius: var(--br-base);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-11xs);
+  box-sizing: border-box;
+}
+.navigationMenuItem2 {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconleft3 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 20px;
+}
+.label3 {
+  position: relative;
+  line-height: 20px;
+  white-space: nowrap;
+}
+.buttonLabel3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-5xs);
+}
+.iconright3 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 20px;
+}
+.labelButtons3 {
+  align-items: center;
+  justify-content: center;
+}
+.button3,
+.labelButtons3,
+.navigationMenuItem3 {
+  display: flex;
+  flex-direction: row;
+}
+.button3 {
+  height: 40px;
+  border-radius: var(--br-base);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-11xs);
+  box-sizing: border-box;
+}
+.navigationMenuItem3 {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconleft4 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 20px;
+}
+.label4 {
+  position: relative;
+  line-height: 20px;
+  white-space: nowrap;
+}
+.buttonLabel4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-5xs);
+}
+.iconright4 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 20px;
+}
+.labelButtons4 {
+  align-items: center;
+  justify-content: center;
+}
+.button4,
+.labelButtons4,
+.navigationMenuItem4 {
+  display: flex;
+  flex-direction: row;
+}
+.button4 {
+  height: 40px;
+  border-radius: var(--br-base);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-11xs);
+  box-sizing: border-box;
+}
+.navigationMenuItem4 {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconleft5 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 20px;
+}
+.label5 {
+  position: relative;
+  line-height: 20px;
+  white-space: nowrap;
+}
+.buttonLabel5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-5xs);
+}
+.iconright5 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 20px;
+}
+.labelButtons5 {
+  align-items: center;
+  justify-content: center;
+}
+.button5,
+.labelButtons5,
+.navigationMenuItem5 {
+  display: flex;
+  flex-direction: row;
+}
+.button5 {
+  height: 40px;
+  border-radius: var(--br-base);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-11xs);
+  box-sizing: border-box;
+}
+.navigationMenuItem5 {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconleft6 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 20px;
+}
+.label6 {
+  position: relative;
+  line-height: 20px;
+  white-space: nowrap;
+}
+.buttonLabel6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-5xs);
+}
+.iconright6 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 20px;
+}
+.button7,
+.labelButtons6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button7 {
+  height: 40px;
+  border-radius: var(--br-base);
+  background-color: var(--ui-interactive-enabled);
+  overflow: hidden;
+  padding: var(--padding-xs) var(--padding-5xs);
+  box-sizing: border-box;
+}
+.button6,
+.navigationLinks {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.button6 {
+  display: flex;
+  align-items: flex-start;
+  color: var(--ui-text-on-interactive-alert);
+}
+.navigationLinks {
+  gap: 0 16px;
+  max-width: 100%;
+}
+.navbar,
+.navigationLinks,
+.outputHandler {
+  display: flex;
+  align-items: flex-start;
+}
+.navbar {
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-29xl) 15.400000000000093px;
+  box-sizing: border-box;
+  max-width: 1920px;
+  gap: var(--gap-xl);
+}
+.outputHandler {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--subtitle-2-size);
+  color: var(--ui-text-medium-emphasis);
+  font-family: var(--title-large);
+}
+@media screen and (max-width: 1900px) {
+  .navbar {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1425px) {
+  .navbar {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .navbar {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .navbar {
+    max-width: 100%;
+  }
+}

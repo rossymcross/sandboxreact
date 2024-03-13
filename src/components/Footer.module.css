@@ -1,0 +1,632 @@
+.sandboxIcon {
+  align-self: stretch;
+  height: 23.2px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.positionPlacerIcon {
+  position: absolute;
+  top: 0;
+  left: 22.9px;
+  width: 20.1px;
+  height: 13.5px;
+}
+.alignmentAlignerIcon {
+  position: absolute;
+  top: 0.7px;
+  left: 0;
+  width: 16.8px;
+  height: 12.2px;
+}
+.groupIcon,
+.sizeScaler {
+  height: 13.5px;
+  width: 43px;
+  position: relative;
+}
+.groupIcon {
+  height: 12.7px;
+  width: 24.7px;
+}
+.rotationRotatorIcon {
+  height: 13.1px;
+  width: 59.3px;
+  position: relative;
+}
+.arrowArranger,
+.colorChooser {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 7.5px;
+}
+.arrowArranger {
+  width: 142px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.9px 0;
+}
+.signUpTo,
+.stayInThe {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+}
+.signUpTo {
+  font-size: var(--body-medium-size);
+  letter-spacing: 0.01em;
+  line-height: 24px;
+  font-family: var(--label-small);
+  color: var(--ui-text-medium-emphasis);
+}
+.newsletterHeading {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px 0;
+}
+.iconleft {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.canvasCanvasser,
+.label {
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.label {
+  width: 273px;
+  line-height: 16px;
+  display: none;
+}
+.canvasCanvasser {
+  line-height: 24px;
+  white-space: nowrap;
+}
+.avatarIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  object-fit: cover;
+}
+.avatars32px {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  display: none;
+  min-height: 20px;
+}
+.chipLabel,
+.iconLabel {
+  align-self: stretch;
+  display: flex;
+}
+.chipLabel {
+  position: relative;
+  line-height: 20px;
+  align-items: center;
+}
+.iconLabel {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 4px;
+}
+.removeIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.chip,
+.chip1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.chip1 {
+  border-radius: var(--br-5xs);
+  background-color: var(--ui-surface-enabled);
+  align-items: center;
+  padding: var(--padding-11xs) var(--padding-5xs);
+  gap: 0 4px;
+}
+.chip {
+  align-items: flex-start;
+}
+.avatarIcon1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  object-fit: cover;
+}
+.avatars32px1 {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  display: none;
+  min-height: 20px;
+}
+.chipLabel1,
+.iconLabel1 {
+  align-self: stretch;
+  display: flex;
+}
+.chipLabel1 {
+  position: relative;
+  line-height: 20px;
+  align-items: center;
+}
+.iconLabel1 {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 4px;
+}
+.removeIcon1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.chip2,
+.chip3,
+.chiplist {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.chip3 {
+  border-radius: var(--br-5xs);
+  background-color: var(--ui-surface-enabled);
+  display: flex;
+  align-items: center;
+  padding: var(--padding-11xs) var(--padding-5xs);
+  gap: 0 4px;
+}
+.chip2,
+.chiplist {
+  align-items: flex-start;
+}
+.chip2 {
+  display: flex;
+}
+.chiplist {
+  display: none;
+  gap: 0 4px;
+  font-size: var(--subtitle-2-size);
+  color: var(--ui-text-high-emphasis);
+}
+.content,
+.input2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.input2 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: 0 8px;
+  font-size: var(--body-medium-size);
+}
+.content {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.iconleft1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.label1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  white-space: nowrap;
+}
+.buttonLabel {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-9xs);
+}
+.iconright {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 20px;
+}
+.labelButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button,
+.button1,
+.labelButtons {
+  flex-direction: row;
+}
+.button1 {
+  height: 32px;
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-7xs);
+  box-sizing: border-box;
+}
+.button {
+  display: none;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--subtitle-2-size);
+  color: var(--ui-text-on-interactive-alert);
+  font-family: var(--title-large);
+}
+.btndownIcon,
+.btnupIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.field,
+.numeric {
+  justify-content: flex-start;
+}
+.numeric {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.field {
+  align-self: stretch;
+  height: 56px;
+  border-radius: var(--br-xs);
+  background-color: var(--ui-surface-enabled);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-5xs) var(--padding-xs);
+  box-sizing: border-box;
+  gap: 0 8px;
+}
+.icon2,
+.label2 {
+  height: 16px;
+  position: relative;
+}
+.icon2 {
+  width: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.label2 {
+  flex: 1;
+  letter-spacing: 0.01em;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  min-width: 198px;
+}
+.helper {
+  width: 352px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  gap: 0 8px;
+  max-width: 100%;
+}
+.current {
+  color: var(--ui-text-high-emphasis);
+}
+.current,
+.limit,
+.slash {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+}
+.counter,
+.extraInfo {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.counter {
+  height: 16px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  gap: 0 4px;
+  text-align: right;
+}
+.extraInfo {
+  align-self: stretch;
+  display: none;
+  justify-content: flex-end;
+  gap: 0 8px;
+  max-width: 100%;
+  color: var(--ui-text-low-emphasis);
+}
+.input1 {
+  overflow: hidden;
+  gap: 4px 0;
+}
+.input,
+.input1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.iconleft2 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 20px;
+}
+.label3 {
+  position: relative;
+  line-height: 20px;
+}
+.buttonLabel1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-5xs);
+}
+.iconright1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 20px;
+}
+.button3,
+.labelButtons1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button3 {
+  height: 40px;
+  border-radius: var(--br-base);
+  background-color: var(--ui-interactive-enabled);
+  overflow: hidden;
+  padding: var(--padding-xs) var(--padding-5xs);
+  box-sizing: border-box;
+}
+.button2,
+.newsletterForm {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--subtitle-2-size);
+  color: var(--ui-text-on-interactive-alert);
+  font-family: var(--title-large);
+}
+.newsletterForm {
+  width: 340px;
+  flex-direction: column;
+  gap: 16px 0;
+  max-width: 100%;
+  font-size: var(--label-small-size);
+  color: var(--ui-text-medium-emphasis);
+  font-family: var(--label-small);
+}
+.explore,
+.newsletterSection {
+  font-size: var(--title-large-size);
+  font-family: var(--title-large);
+  color: var(--color-white);
+}
+.newsletterSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px 0;
+  min-width: 744px;
+  max-width: 100%;
+}
+.explore {
+  width: 73px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  text-align: center;
+}
+.aboutUs,
+.bankOfPinball,
+.contact,
+.ebash,
+.highlanders {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+}
+.exploreLinks {
+  width: 324px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px 0;
+  max-width: 100%;
+}
+.connectWithUs {
+  width: 162px;
+  position: relative;
+  font-size: var(--title-large-size);
+  line-height: 28px;
+  display: inline-block;
+  font-family: var(--title-large);
+  color: var(--color-white);
+  text-align: center;
+}
+.facebook,
+.rss {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+}
+.connectLinks,
+.footerContent,
+.footerLinks {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.connectLinks {
+  width: 324px;
+  flex-direction: column;
+  gap: 8px 0;
+}
+.footerContent,
+.footerLinks {
+  align-self: stretch;
+}
+.footerLinks {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 16px;
+}
+.footerContent {
+  background-color: var(--ui-background-01);
+  flex-direction: column;
+  padding: var(--padding-29xl) var(--padding-29xl) var(--padding-77xl);
+  box-sizing: border-box;
+  gap: 23.4px 0;
+}
+.copyright2023Tilt {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 16px;
+}
+.copyright,
+.footer {
+  display: flex;
+  align-items: flex-start;
+}
+.copyright {
+  align-self: stretch;
+  background-color: var(--ui-background-01);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-xl);
+  font-size: var(--label-small-size);
+  color: var(--ui-text-low-emphasis);
+}
+.footer {
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 1920px;
+  text-align: left;
+  font-size: var(--body-medium-size);
+  color: var(--ui-text-medium-emphasis);
+  font-family: var(--label-small);
+}
+@media screen and (max-width: 1900px) {
+  .footer {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1425px) {
+  .footerContent {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .footer {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .newsletterSection {
+    min-width: 100%;
+  }
+  .footer {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .stayInThe {
+    font-size: var(--body-medium-size);
+    line-height: 22px;
+  }
+  .helper {
+    flex-wrap: wrap;
+  }
+  .connectWithUs,
+  .explore {
+    font-size: var(--body-medium-size);
+    line-height: 22px;
+  }
+  .footerContent {
+    padding-top: var(--padding-12xl);
+    padding-bottom: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+  .footer {
+    max-width: 100%;
+  }
+}

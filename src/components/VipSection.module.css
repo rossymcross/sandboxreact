@@ -1,0 +1,363 @@
+.mainIcon {
+  width: 1361.7px;
+  height: 623px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: calc(50% - 680.8px);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.vipCardImageIcon {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  transform: scale(1.022);
+}
+.wrapperVipCardImage {
+  width: 644.4px;
+  height: 472.9px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.unlockTheNext {
+  margin: 0;
+  width: 594px;
+  position: relative;
+  font-size: inherit;
+  line-height: 60px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.enjoyExclusiveBenefits {
+  margin-block-start: 0;
+  margin-block-end: 24px;
+}
+.youCanNow {
+  margin: 0;
+}
+.enjoyExclusiveBenefitsContainer {
+  align-self: stretch;
+  height: 56px;
+  position: relative;
+  font-size: var(--title-large-size);
+  letter-spacing: 0.01em;
+  line-height: 28px;
+  font-family: var(--label-small);
+  color: var(--ui-text-medium-emphasis);
+  display: inline-block;
+}
+.vipHeading {
+  width: 781px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px 0;
+  max-width: 100%;
+}
+.mergeNodeIcon {
+  height: 26.6px;
+  width: 40px;
+  position: relative;
+}
+.hourAtHighlanders {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+}
+.parallelNode {
+  width: 289px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 12px;
+}
+.eachDayYou {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--subtitle-2-size);
+  line-height: 20px;
+  font-family: var(--label-small);
+}
+.sequenceNode {
+  align-self: stretch;
+  background-color: var(--ui-surface-enabled);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-5xl) var(--padding-5xl);
+  gap: 12px 0;
+}
+.matrixNodeIcon {
+  align-self: stretch;
+  height: 187px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.benefit1,
+.benefitColumn1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.benefit1 {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  border: 1px solid var(--ui-metallic-gold);
+  overflow: hidden;
+}
+.benefitColumn1 {
+  max-width: 100%;
+}
+.tollIcon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.upTo20 {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+}
+.dictionaryNode {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 10px;
+  font-family: var(--title-large);
+}
+.everyTimeYou,
+.theseCreditsAre {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--subtitle-2-size);
+  line-height: 20px;
+}
+.theseCreditsAre {
+  font-size: var(--label-small-size);
+  letter-spacing: 0.01em;
+  line-height: 16px;
+  color: var(--ui-text-medium-emphasis);
+}
+.benefit3,
+.benefitColumn2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.benefit3 {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--ui-surface-enabled);
+  border: 1px solid var(--ui-metallic-gold);
+  padding: var(--padding-base) var(--padding-4xl) var(--padding-5xl);
+  gap: 12px 0;
+  font-family: var(--label-small);
+}
+.benefitColumn2 {
+  gap: 16px 0;
+  max-width: 100%;
+}
+.moneyOffCsredIcon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.noDepositsRequired {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+}
+.moneyOffCsredParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 11px;
+}
+.preOrderAnyGame {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--subtitle-2-size);
+  line-height: 20px;
+  font-family: var(--label-small);
+}
+.frameParent {
+  align-self: stretch;
+  background-color: var(--ui-surface-enabled);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-5xl) var(--padding-5xl);
+  gap: 12px 0;
+}
+.benefit4Child {
+  align-self: stretch;
+  height: 84px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.benefit4,
+.benefitColumn3,
+.vipBenefits {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.benefit4 {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  border: 1px solid var(--ui-metallic-gold);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.benefitColumn3,
+.vipBenefits {
+  max-width: 100%;
+}
+.benefitColumn3 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px 0;
+}
+.vipBenefits {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  gap: 0 16px;
+  grid-template-columns: repeat(3, minmax(408px, 1fr));
+  text-align: left;
+  font-size: var(--body-medium-size);
+  color: var(--ui-text-high-emphasis);
+}
+.month,
+.startingAt {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.month {
+  font-size: var(--headline-medium-size);
+  line-height: 44px;
+  font-family: var(--title-large);
+  color: var(--ui-interactive-enabled);
+}
+.vipContent,
+.vipCost,
+.vipSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vipCost {
+  align-self: stretch;
+  gap: 8px 0;
+  font-size: var(--subtitle-2-size);
+  color: var(--ui-text-medium-emphasis);
+  font-family: var(--label-small);
+}
+.vipContent,
+.vipSection {
+  width: 1664px;
+  gap: 32px 0;
+  max-width: 100%;
+}
+.vipSection {
+  width: 100%;
+  padding: 0 var(--padding-xl) var(--padding-109xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: 56px 0;
+  max-width: 1920px;
+  min-height: 1369px;
+  text-align: center;
+  font-size: var(--headline-large-size);
+  color: var(--ui-interactive-enabled);
+  font-family: var(--title-large);
+}
+@media screen and (max-width: 1900px) {
+  .vipSection {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1425px) {
+  .vipBenefits {
+    grid-template-columns: repeat(2, minmax(408px, 707px));
+    justify-content: center;
+  }
+  .vipSection {
+    padding-bottom: var(--padding-64xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .unlockTheNext {
+    font-size: var(--font-size-21xl);
+    line-height: 48px;
+  }
+  .vipBenefits {
+    grid-template-columns: minmax(408px, 1fr);
+  }
+  .month {
+    font-size: var(--font-size-9xl);
+    line-height: 35px;
+  }
+  .vipContent {
+    gap: 16px 0;
+  }
+  .vipSection {
+    gap: 28px 0;
+    padding-bottom: var(--padding-35xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .unlockTheNext {
+    font-size: var(--font-size-11xl);
+    line-height: 36px;
+  }
+  .enjoyExclusiveBenefitsContainer {
+    font-size: var(--body-medium-size);
+    line-height: 22px;
+  }
+  .month {
+    font-size: var(--font-size-2xl);
+    line-height: 26px;
+  }
+  .vipSection {
+    max-width: 100%;
+  }
+}

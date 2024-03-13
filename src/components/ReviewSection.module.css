@@ -1,0 +1,99 @@
+.highScoresFrom {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.readyToJoin {
+  width: 720px;
+  position: relative;
+  font-size: var(--title-large-size);
+  letter-spacing: 0.01em;
+  line-height: 28px;
+  font-family: var(--label-small);
+  color: var(--ui-text-medium-emphasis);
+  display: inline-block;
+  max-width: 100%;
+}
+.forestNode,
+.reviewHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.forestNode {
+  align-self: stretch;
+  gap: 8px 0;
+  max-width: 100%;
+}
+.reviewHeading {
+  width: 100%;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 1344px;
+}
+.reviewSection,
+.reviewSlider {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.reviewSlider {
+  width: 1920px;
+  overflow-x: auto;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0 16px;
+  text-align: left;
+  font-size: var(--title-large-size);
+  color: var(--ui-text-high-emphasis);
+  font-family: var(--label-small);
+}
+.reviewSection {
+  align-self: stretch;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.06),
+    rgba(255, 255, 255, 0)
+  );
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-77xl) 0;
+  box-sizing: border-box;
+  gap: 48px 0;
+  text-align: center;
+  font-size: var(--headline-large-size);
+  color: var(--ui-interactive-enabled);
+  font-family: var(--title-large);
+}
+@media screen and (max-width: 1425px) {
+  .reviewHeading {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .highScoresFrom {
+    font-size: var(--font-size-21xl);
+    line-height: 48px;
+  }
+  .reviewSection {
+    gap: 24px 0;
+    padding-top: var(--padding-43xl);
+    padding-bottom: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .highScoresFrom {
+    font-size: var(--font-size-11xl);
+    line-height: 36px;
+  }
+  .readyToJoin {
+    font-size: var(--body-medium-size);
+    line-height: 22px;
+  }
+}

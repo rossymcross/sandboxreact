@@ -1,0 +1,117 @@
+.image23Icon {
+  align-self: stretch;
+  height: 64px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.adventureLogo {
+  width: 152px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.cuttingEdgeGamingWith {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+}
+.iconleft {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+}
+.label {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+}
+.buttonLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-6xs);
+}
+.iconright {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.labelButtons {
+  align-items: center;
+  justify-content: center;
+}
+.button,
+.button1,
+.labelButtons {
+  display: flex;
+  flex-direction: row;
+}
+.button1 {
+  border-radius: var(--br-base);
+  background-color: var(--ui-surface-enabled);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-5xs);
+}
+.button {
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--ui-text-high-emphasis);
+  font-family: var(--title-large);
+}
+.adventureCard,
+.cardDescription {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.cardDescription {
+  width: 100%;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-gray-100);
+  backdrop-filter: blur(64px);
+  border: 1px solid var(--ui-decorative-01);
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-13xl) var(--padding-12xl);
+  max-width: 564px;
+  min-height: 312px;
+}
+.adventureCard {
+  width: 538px;
+  border-radius: var(--br-13xl);
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: var(--padding-5xs);
+  background-image: url(/public/adventure-card@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 420px;
+  min-height: 720px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-medium-size);
+  color: var(--ui-text-medium-emphasis);
+  font-family: var(--label-small);
+}
+@media screen and (max-width: 950px) {
+  .cardDescription {
+    max-width: 100%;
+  }
+}
